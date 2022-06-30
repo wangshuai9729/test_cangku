@@ -1,0 +1,239 @@
+ 2003  su
+ 2004  sudo passwd root
+ 2005  su root
+ 2006  useradd –m test –s /bin/bash
+ 2007  useradd -m test -s /bin/bash 
+ 2008  cat /etc/passwd
+ 2009  sudo useradd -m test -s /bin/bash
+ 2010  cat /etc/passwd
+ 2011  ls ..
+ 2012  history 
+ 2013  sudo passwd test
+ 2014  su test
+ 2015  history 
+ 2016  ls /
+ 2017  pwd
+ 2018  ls /home
+ 2019  sudo userdel -r test
+ 2020  cat /etc/passwd
+ 2021  ls /etc/shadow
+ 2022  cat /etc/shadow
+ 2023  sudo cat /etc/shadow
+ 2024  ls
+ 2025  ls ../lele/
+ 2026  mkdir py5
+ 2027  mv day* py5
+ 2028  ls
+ 2029  mkdir day2
+ 2030  cd day2
+ 2031  ls
+ 2032  ls -a ./
+ 2033  ls /
+ 2034  ls /home
+ 2035  pwd
+ 2036  ls ../
+ 2037  man ls
+ 2038  touch file
+ 2039  ls -l
+ 2040  ls
+ 2041  cat /etc/group
+ 2042  cat /etc/passwd
+ 2043  cat /etc/group
+ 2044  cd ..
+ 2045  ls -l
+ 2046  cd day2
+ 2047  ls
+ 2048  mkdir dir1
+ 2049  ls -l
+ 2050  ln -s file file1
+ 2051  ls -l
+ 2052  ls /dev/ -l
+ 2053  ls -l
+ 2054  mkfifo pipe
+ 2055  ll
+ 2056  ls -l
+ 2057  rm pipe 
+ 2058  ls -l
+ 2059  echo hello >file
+ 2060  cat file
+ 2061  ls -l
+ 2062  cd ..
+ 2063  ls -l
+ 2064  ls -lh
+ 2065  ls -lh /
+ 2066  pwd
+ 2067  cd ..
+ 2068  ls
+ 2069  pwd
+ 2070  cd /
+ 2071  pwd
+ 2072  cd /home/lele
+ 2073  pwd
+ 2074  cd ~
+ 2075  pwd
+ 2076  cd -
+ 2077  cd day2/
+ 2078  ls
+ 2079  mkdir dir2
+ 2080  ls
+ 2081  rmdir dir2
+ 2082  mkdir dir1/dir2
+ 2083  ls
+ 2084  ls dir1
+ 2085  ls
+ 2086  rmdir dir1
+ 2087  ls
+ 2088  ls -l
+ 2089  cp file file2
+ 2090  ls -l
+ 2091  cat file
+ 2092  cat file2
+ 2093  echo world >file
+ 2094  ls -l
+ 2095  cat file
+ 2096  cat file2
+ 2097  cat file1
+ 2098  ln file file3
+ 2099  ls -l
+ 2100  ls -il
+ 2101  rm file
+ 2102  ls -l
+ 2103  cat file1
+ 2104  cat file3
+ 2105  ln file3 file
+ 2106  ll
+ 2107  ls -il
+ 2108  echo howareyou >file
+ 2109  ls -il
+ 2110  cd .
+ 2111  cd ..
+ 2112  cd .
+ 2113  cd day2
+ 2114  ls -a
+ 2115  ls -ial
+ 2116  pwd
+ 2117  ls -il /home
+ 2118  ls
+ 2119  mkdir dir2
+ 2120  cp file3 dir2
+ 2121  ls dir2
+ 2122  cp -i file3 dir2
+ 2123  cp -f file3 dir2
+ 2124  ls
+ 2125  cp dir2 dir3
+ 2126  ls
+ 2127  cp -r dir2 dir3
+ 2128  ls
+ 2129  history 
+ 2130  ls
+ 2131  cd dir3
+ 2132  ls -ial
+ 2133  cd /
+ 2134  ls -il
+ 2135  ls -ila
+ 2136  cd -
+ 2137  ls
+ 2138  cd ..
+ 2139  ls
+ 2140  ln -s dir3 ka
+ 2141  ll
+ 2142  rm ka
+ 2143  ls
+ 2144  history 
+ 2145  history |tail -144 >day2_history.txt
+ 2146  ls
+ 2147  mkdir dir4
+ 2148  ls dir4
+ 2149  ls
+ 2150  mv file3 dir4
+ 2151  ls
+ 2152  ls dir4
+ 2153  touch file3
+ 2154  ls dir4
+ 2155  ls
+ 2156  mv -i file3 dir4
+ 2157  ls
+ 2158  mv -i file3 dir4
+ 2159  ls
+ 2160  mv file2 file3
+ 2161  ls
+ 2162  ls -l
+ 2163  ls -il
+ 2164  mv file3 file2
+ 2165  ls -il
+ 2166  rm file
+ 2167  ls
+ 2168  rm dir1
+ 2169  rm -r dir1
+ 2170  ls
+ 2171  cd /home/lele
+ 2172  ls
+ 2173  rm examples.desktop 
+ 2174  rm -f examples.desktop 
+ 2175  tree
+ 2176  cd ~
+ 2177  tree
+ 2178  cd day2
+ 2179  tree
+ 2180  tree -a
+ 2181  tree -t
+ 2182  ls -l
+ 2183  tree -u
+ 2184  tree -h
+ 2185  ls -l
+ 2186  echo I love python
+ 2187  vim first.sh
+ 2188  ll
+ 2189  cat first.sh 
+ 2190  ./first.sh
+ 2191  chmod +x first.sh 
+ 2192  ls -l
+ 2193  which ls
+ 2194  ls /bin/ls
+ 2195  ./first.sh 
+ 2196  ll
+ 2197  chmod a+x file2
+ 2198  ll
+ 2199  chmod a-w file2
+ 2200  ll
+ 2201  chmod a=r file2
+ 2202  ll
+ 2203  history 
+ 2204  ll
+ 2205  chmod u+w file2
+ 2206  ll
+ 2207  chmod u-w file2
+ 2208  ll
+ 2209  echo python6 >file2
+ 2210  cat file2
+ 2211  chmod 754 file2
+ 2212  ll
+ 2213  chmod 000 file2
+ 2214  ll
+ 2215  md5sum first.sh 
+ 2216  ls
+ 2217  ll
+ 2218  cd dir4
+ 2219  ls
+ 2220  touch file
+ 2221  cd ..
+ 2222  ls
+ 2223  ll
+ 2224  chmod 555 dir4
+ 2225  ls
+ 2226  ll
+ 2227  touch dir4/file5
+ 2228  chmod 777 dir4
+ 2229  ll
+ 2230  touch file3
+ 2231  ll
+ 2232  mkdir dir5
+ 2233  ll
+ 2234  chmod 664 dir5
+ 2235  ll
+ 2236  cd dir5
+ 2237  ifconfig
+ 2238  ping www.baidu.com
+ 2239  history 
+ 2240  history >day2_lisi.txt
+ 2241  history |tail -239 >day2_lisi.txt
